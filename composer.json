@@ -1,0 +1,25 @@
+{
+    "name": "felice/laravel-github-webhook",
+    "description": "Laravel Package for github Webhook",
+    "type": "Laravel Package",
+    "require": {
+        "illuminate/http": "5.4.*",
+         "php": ">=5.3.9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Iqmal",
+            "email": "iqmalazim@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Felice\\GithubWebhook\\":"src"
+        },
+        "files": [
+            "src/Events/events.php"
+        ]
+    }
+}
